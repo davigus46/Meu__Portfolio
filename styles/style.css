@@ -97,16 +97,19 @@ main {
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
-    gap: 32px;
-    
-    
+    gap: 32px; 
+}
+.apresentacao__links__subtitulo{
+    font-family: var(--fonte-principal);
+    font-size: 1rem;
+    font-weight: 400;
 }
 
 .apresentacao__links__link{
     display: flex;
     background-color: var(--cor-principal);
     justify-content: center;
-    gap: 16px;
+    gap: 5px;
     width: 378px;   
     font-family: var(--fonte-secundaria);
     font-size: 1.5rem;
@@ -121,7 +124,7 @@ main {
 }  
 .apresentacao__links__link:hover{
     background-color: var(--cor-hover-link);
-    padding: 3%;
+    padding: 5%;
 } 
 
 
